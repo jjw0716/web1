@@ -34,4 +34,3 @@ function nightDayHandler(self){
     Links.setColor('black');
   }
 }
-//check
