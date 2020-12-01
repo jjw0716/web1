@@ -4,33 +4,8 @@
   <title>WEB - JavaScript</title>
   <meta charset = "utf-8">
   <link rel="stylesheet" href="style.css">
-  <script>
-    function nightDayHandler(self){
-      var target = document.querySelector('body').style;
-      if(self.value === 'night'){
-        target.backgroundColor = 'black';
-        target.color = 'white';
-        self.value = 'day';
-        var lists = document.querySelectorAll('a');
-        var i = 0;
-        while(i < lists.length){
-          lists[i].style.color = 'powderblue';
-          i+=1;
-        }
-      }
-      else{
-        target.backgroundColor = 'white';
-        target.color = 'black';
-        self.value = 'night'
-        var lists = document.querySelectorAll('a');
-        var i = 0;
-        while(i < lists.length){
-          lists[i].style.color = 'black';
-          i+=1;
-        }
-      }
-    }
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src = "colors.js"></script>
 </head>
 <body>
   <h1><a href = "index.html">WEB</a></h1>

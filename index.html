@@ -7,9 +7,10 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-G6KNZ5RSL2');
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src = "colors.js"></script>
   <title>WEB - Welcome</title>
   <meta chareset="utf-8">
   <link rel="stylesheet" href="style.css">
@@ -17,6 +18,9 @@
 </head>
 <body>
   <h1><a href = "index.html">WEB</a></h1>
+  <input type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
   <div id="grid">
     <ol>
       <li><a href ="1.html">HTML</a></li>
